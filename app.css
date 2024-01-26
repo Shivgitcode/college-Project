@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "sans-serif";
+}
+
+:root {
+  --maincolor: #21243d;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.nav {
+  width: 100%;
+  background-color: var(--maincolor);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+.navlogo {
+  width: fit-content;
+  height: fit-content;
+  padding-top: 5px;
+}
+
+.navlogo img {
+  width: 150px;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  font-weight: 400;
+}
+
+.navlinks li:hover {
+  color: rgb(255, 255, 255, 0.5);
+  transition: all 200ms;
+}
+
+.navsearch img {
+  width: 30px;
+  height: 30px;
+  align-self: top;
+}
+
+.navsearch img:hover {
+  animation-name: shake;
+  animation-duration: 0.2s;
+  /* animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); */
+  /* animation-delay: 1s; */
+  animation-timeline: 10s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
