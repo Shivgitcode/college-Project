@@ -166,6 +166,7 @@
   background-color: var(--maincolor);
   position: relative;
   min-height: 700px;
+  overflow: hidden;
 }
 
 .menucard {
@@ -175,12 +176,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 60px;
 
-  /* min-height: 00px; */
+  min-height: 1000px;
 }
 
 .menudesign {
   position: absolute;
+}
+
+.menudesc {
+  font-size: 25px;
+  color: white;
+  font-weight: 400;
 }
 
 .menuhead {
@@ -239,14 +247,65 @@
 
   justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 
 .menudishes p {
   text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
 }
 
 .menudishes h3 {
   font-size: 28px;
   font-weight: 700;
   color: white;
+}
+
+.menudishes img {
+  border-radius: 100%;
+}
+
+.unknown {
+  background: url("./assets/chrome_ej6gYLcurm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+}
+
+.unknownsection {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: end;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.unknownsection img {
+  border-radius: 100%;
+}
+
+.unknownsection div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.unknownsection div h2 {
+  font-size: 75px;
+  font-weight: 700;
+  color: var(--maincolor);
+  text-align: left;
+  width: 100%;
+}
+
+.unknownsection div p {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--maincolor);
+  text-align: left;
 }
