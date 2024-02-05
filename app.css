@@ -174,10 +174,79 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  height: 100%;
+  justify-content: center;
+
+  /* min-height: 00px; */
 }
 
 .menudesign {
   position: absolute;
+}
+
+.menuhead {
+  color: white;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.menudesign1 {
+  position: absolute;
+  top: 60%;
+  left: -80px;
+}
+
+.menudesign2 {
+  position: absolute;
+  right: -70px;
+  top: -50px;
+}
+
+.menudesign3 {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+
+.menudesign4 {
+  position: absolute;
+  right: 0px;
+  top: 800px;
+}
+
+.menudesign5 {
+  position: absolute;
+  left: 400px;
+  top: -60px;
+  transform: rotate(90deg);
+}
+
+.menudesign6 {
+  position: absolute;
+  right: -20px;
+  top: 500px;
+}
+
+.menudishes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.menudishes div {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.menudishes p {
+  text-align: center;
+}
+
+.menudishes h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
 }
