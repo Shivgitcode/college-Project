@@ -278,6 +278,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 .unknownsection {
@@ -324,5 +325,190 @@
 }
 
 .location {
-  background-color: var(--maincolor)
+  background-color: var(--maincolor);
+  position: relative;
+  min-height: 800px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationsection {
+  background: transparent;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 70px;
+  position: relative;
+  z-index: 10;
+
+}
+
+.location img {
+  position: absolute;
+
+
+
+
+}
+
+.locationsectionheading {
+  font-size: 62px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.locationsectiondesc {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.location1,
+.location2,
+.location3 {
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 50px;
+
+}
+
+.unknownsection2 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row-reverse;
+  padding: 0 30px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  margin: 0 auto;
+
+}
+
+.review {
+  background-image: url("./assets/reviewbg.svg"), url("./assets/reviewbg2.svg");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+
+}
+
+.reviewsection {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+
+
+}
+
+.reviewimg img {
+  border-radius: 100%;
+}
+
+.reviewdesc {
+  font-size: 42px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.reviewname {
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contactus {
+  /* background-image: url("./assets/Shape.svg") */
+  background-color: #ffd17e;
+  width: 100%;
+  height: 800px;
+  display: flex;
+
+
+
+}
+
+.contactussection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+  gap: 15px;
+
+}
+
+.contactusheading {
+  font-size: 75px;
+  color: #21243d;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contactusdesc {
+  font-size: 30px;
+  color: #21243d;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contactusfield {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.contactusfield input {
+  border: none;
+  outline: none;
+  padding: 15px 15px;
+  width: 100%;
+
+  border-radius: 15px;
+
+}
+
+.contactusfield button {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width:640px) {
+  .nav {
+    display: none;
+  }
 }
