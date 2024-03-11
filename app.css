@@ -209,6 +209,7 @@
 
 .menu {
   background-color: var(--maincolor);
+
   position: relative;
   min-height: 700px;
   overflow: hidden;
@@ -222,12 +223,27 @@
   align-items: center;
   justify-content: center;
   gap: 60px;
+  position: relative;
+  z-index: 10;
 
   min-height: 1000px;
 }
 
 .menudesign {
   position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+
+
+
+}
+
+.menudesign img {
+  min-width: 2100px;
+  min-height: 100vh;
+  position: relative;
+  top: -50px;
+  left: -150px
 }
 
 .menudesc {
@@ -311,7 +327,7 @@
 
 
 .unknown {
-  background: url("./assets/chrome_ej6gYLcurm.png");
+  background: url("./assets/Group4.svg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 800px;
@@ -434,6 +450,11 @@
 
 .location img {
   position: absolute;
+  min-width: 1450px;
+  bottom: -150px;
+  right: 300px;
+  top: 10px;
+  /* min-height: 100vh; */
 
 }
 
@@ -593,9 +614,15 @@
 
 
 .contactus {
-  /* background-image: url("./assets/Shape.svg") */
-  background-color: #ffd17e;
-  width: 100%;
+  background-image: url("./assets/Group3.svg");
+  background-repeat: no-repeat;
+  background-size: 1970px;
+
+  position: relative;
+
+
+  /* background-color: #ffd17e; */
+  width: 100vw;
   height: 800px;
   display: flex;
 
