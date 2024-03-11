@@ -34,8 +34,6 @@
   padding: 10px 0px;
 }
 
-
-
 .navlogo {
   width: fit-content;
   height: fit-content;
@@ -64,7 +62,6 @@
 
 .navigation {
   display: none;
-
 }
 
 .search {
@@ -73,22 +70,19 @@
   align-self: top;
 }
 
-
 /* making responsive navbar */
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
   .navlinks {
     display: none;
-
   }
 
   .nav {
-    padding-top: 10px
+    padding-top: 10px;
   }
 
-
   .search {
-    display: none
+    display: none;
   }
 
   .navigation {
@@ -99,7 +93,6 @@
     cursor: pointer;
   }
 }
-
 
 /* hero section */
 
@@ -175,13 +168,9 @@
   border: var(--maincolor);
 }
 
-
-
-
 /* responsive hero  */
 
-@media (max-width:640px) {
-
+@media (max-width: 640px) {
   .herotitlecard {
     margin-top: -70px;
     display: flex;
@@ -201,9 +190,6 @@
 .herodesc {
   text-align: center;
 }
-
-
-
 
 /* menu  */
 
@@ -233,9 +219,6 @@
   position: absolute;
   min-width: 100vw;
   min-height: 100vh;
-
-
-
 }
 
 .menudesign img {
@@ -243,7 +226,7 @@
   min-height: 100vh;
   position: relative;
   top: -50px;
-  left: -150px
+  left: -150px;
 }
 
 .menudesc {
@@ -257,8 +240,6 @@
   font-weight: 700;
   font-size: 64px;
 }
-
-
 
 .menudishes {
   display: flex;
@@ -293,13 +274,11 @@
   border-radius: 100%;
 }
 
-
 /* menu responsive */
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .menu {
     padding: 50px 0;
-
   }
 
   .menudishes {
@@ -307,10 +286,6 @@
     flex-wrap: wrap;
     padding: 30px 0;
     gap: 30px;
-
-
-
-
   }
 
   .menuhead {
@@ -320,11 +295,9 @@
   .menudesc {
     text-align: center;
   }
-
-
-
 }
 
+/* unknow css */
 
 .unknown {
   background: url("./assets/Group4.svg");
@@ -334,7 +307,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .unknownsection {
@@ -361,7 +333,6 @@
   gap: 25px;
 
   align-items: start;
-
 }
 
 .unknownsection div h2 {
@@ -370,7 +341,6 @@
   color: var(--maincolor);
   text-align: left;
   width: fit-content;
-
 }
 
 .unknownsection div p {
@@ -380,11 +350,7 @@
   text-align: left;
 }
 
-
-
-
-
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .unknownsection {
     display: flex;
     flex-direction: column;
@@ -393,7 +359,6 @@
     width: 90%;
     margin: 0 auto;
     margin-top: -30px;
-
   }
 
   .unknownsection div img {
@@ -418,11 +383,7 @@
     text-align: center;
     font-size: 20px;
   }
-
 }
-
-
-
 
 .location {
   background-color: var(--maincolor);
@@ -445,7 +406,6 @@
   gap: 70px;
   position: relative;
   z-index: 10;
-
 }
 
 .location img {
@@ -455,7 +415,6 @@
   right: 300px;
   top: 10px;
   /* min-height: 100vh; */
-
 }
 
 .locationsectionheading {
@@ -482,7 +441,6 @@
   color: #ffffff;
   font-weight: 700;
   text-align: center;
-
 }
 
 .location1,
@@ -491,7 +449,6 @@
   border: 2px solid white;
   border-radius: 100%;
   padding: 50px;
-
 }
 
 .unknownsection2 {
@@ -505,12 +462,11 @@
   align-items: center;
   gap: 200px;
   margin: 0 auto;
-
 }
 
 /* unknown section2 media queries */
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .unknownsection2 {
     display: flex;
     flex-direction: column;
@@ -519,20 +475,14 @@
     width: 90%;
     align-items: center;
   }
-
 }
-
-
-
 
 /* location media queries */
 
-
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .locationsection {
     width: 90%;
     padding: 50px 0;
-
   }
 
   .locations {
@@ -550,8 +500,6 @@
   }
 }
 
-
-
 .review {
   background-image: url("./assets/reviewbg.svg"), url("./assets/reviewbg2.svg");
   background-blend-mode: multiply;
@@ -562,7 +510,6 @@
   justify-content: center;
   align-items: center;
   height: 800px;
-
 }
 
 .reviewsection {
@@ -573,8 +520,6 @@
   justify-content: center;
   width: 80%;
   margin: 0 auto;
-
-
 }
 
 .reviewimg img {
@@ -595,7 +540,7 @@
   text-align: center;
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .reviewdesc {
     font-size: 2rem;
   }
@@ -605,14 +550,6 @@
   }
 }
 
-
-
-
-
-
-
-
-
 .contactus {
   background-image: url("./assets/Group3.svg");
   background-repeat: no-repeat;
@@ -620,14 +557,10 @@
 
   position: relative;
 
-
   /* background-color: #ffd17e; */
   width: 100vw;
   height: 800px;
   display: flex;
-
-
-
 }
 
 .contactussection {
@@ -638,7 +571,6 @@
   margin: 0 auto;
   margin-top: 11%;
   gap: 25px;
-
 }
 
 .contactusheading {
@@ -667,15 +599,12 @@
   width: 40%;
   position: relative;
   overflow: hidden;
-
 }
 
 .contactusfield input {
   background: transparent;
   border: none;
   width: 100%;
-
-
 }
 
 .contactusfield button {
@@ -683,7 +612,6 @@
   position: absolute;
   right: 0px;
   top: 0px;
-
 
   /* width: 100%; */
 
@@ -696,20 +624,16 @@
 
 /* contact us field media queries */
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .contactussection {
     margin-top: 100px;
-
   }
 
   .contactusfield {
     width: 100%;
+    margin-top: 30px;
   }
-
 }
-
-
-
 
 .footer {
   background-color: black;
@@ -719,7 +643,6 @@
   align-items: center;
   color: white;
   height: 500px;
-
 }
 
 .footersection {
@@ -728,7 +651,6 @@
   align-items: center;
   width: 80%;
   margin: 0 auto;
-
 }
 
 .titlesection {
@@ -737,8 +659,6 @@
   flex-direction: column;
   gap: 25px;
 }
-
-
 
 .forums {
   display: flex;
@@ -752,20 +672,15 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-
-
-
 }
 
 .forum ul li {
   margin-bottom: 5px;
-
 }
-
 
 /* footer responsive */
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .footer {
     padding: 70px 0;
     height: 100%;
@@ -777,29 +692,31 @@
     min-height: 100%;
 
     gap: 50px;
-
   }
 
   .forums {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: start;
     width: 100%;
     margin-top: -70px;
     overflow: hidden;
-    /* min-height: 60%; */
+    /* min-height: 70%; */
+    gap: 30px;
 
     align-items: start;
   }
 
-
+  .forum {
+    min-height: 33%;
+  }
 }
 
 .nav2 {
   display: none;
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .nav2 {
     display: none;
     position: absolute;
@@ -825,8 +742,6 @@
   }
 }
 
-
 .hide {
   display: block;
-
 }
