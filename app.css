@@ -101,6 +101,8 @@
   background-image: url("./assets/backgroundimageHero.svg"),
     url("./assets/Shape.svg");
   background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   min-height: 700px;
   position: relative;
@@ -385,6 +387,8 @@
   }
 }
 
+/* location css  */
+
 .location {
   background-color: var(--maincolor);
   position: relative;
@@ -451,6 +455,27 @@
   padding: 50px;
 }
 
+@media (max-width: 640px) {
+  .locationsection {
+    width: 90%;
+    padding: 50px 0;
+  }
+
+  .locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .location1,
+  .location2,
+  .location3 {
+    margin-bottom: 30px;
+  }
+}
+
 .unknownsection2 {
   width: 80%;
   height: 80%;
@@ -474,29 +499,6 @@
     gap: 0px;
     width: 90%;
     align-items: center;
-  }
-}
-
-/* location media queries */
-
-@media (max-width: 640px) {
-  .locationsection {
-    width: 90%;
-    padding: 50px 0;
-  }
-
-  .locations {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .location1,
-  .location2,
-  .location3 {
-    margin-bottom: 30px;
   }
 }
 
@@ -549,6 +551,8 @@
     font-size: 2rem;
   }
 }
+
+/* contact us css  */
 
 .contactus {
   background-image: url("./assets/Group3.svg");
